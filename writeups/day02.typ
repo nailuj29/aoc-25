@@ -17,7 +17,7 @@ This worked for Part 1, but would later be changed after I introduced a helper f
 Total time: *00:05:49*
 
 === Part 2
-For this part, I quickly realized a helper function to "chunkify" a string and check the uniqueness of these "chunks" would be helpful, allowing me to refactor Part 1 as well. Luckily, Kotlin provides a `String.chunk` method that does just that. To check for a repeating pattern, I simply turned the chunks into a set, and checked if its length was 1:
+For this part, I quickly realized a helper function to "chunkify" a string and check the uniqueness of these "chunks" would be helpful, allowing me to refactor Part 1 as well. Luckily, Kotlin provides a `String.chunk` method that does just that. To check for a repeating pattern, I simply turned the chunks into a set, and checked if its length was 1, indicating there was only 1 unique "chunk":
 ```kt
 fun checkRepeats(string: String, num: Int): Boolean {
     val chunks = string.chunked(num)
