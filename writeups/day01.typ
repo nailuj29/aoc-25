@@ -1,12 +1,14 @@
-== Day 1
+== Day 1: Secret Entrance
 Today was fairly difficult as far as Day 1's go (or maybe I was tired from the 4 hour drive through a rainstorm I had just hours earlier). 
 As in the past, I did the problems in Kotlin.
+
 === Part 1
 I started part 1 off wonderfully, misreading it, and (attempting to) solve part 2. 
 When I was getting a higher answer than expected, I went back, reread, and stashed my code for later, (correctly) assuming it may be useful for part 2. 
 Other than that, my code wasn't that interesting, just a check for zero, and repeatedly incrementing my `dial` variable by 100 until it was positive, since modulo arithmetic wouldn't help me there.
 
 Total time: *00:06:03*
+
 === Part 2
 Part 2 is where I really began to struggle. At first, I attempted the "smarter" solution. It looked something like this (unfortunately my 12:30am brain decided not to save it for when I want to come back later to fix it):
 ```kt
