@@ -1,4 +1,4 @@
-== Advent of Code 2025 Day 1
+== Day 1
 Today was fairly difficult as far as Day 1's go (or maybe I was tired from the 4 hour drive through a rainstorm I had just hours earlier). 
 As in the past, I did the problems in Kotlin.
 === Part 1
