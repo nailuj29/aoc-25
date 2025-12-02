@@ -15,10 +15,8 @@ fun main() {
         var total = 0L
         for (id in ids) {
             val str = id.toString()
-            val firstHalf = str.take(str.length / 2)
-            val secondHalf = str.drop(str.length / 2)
 
-            if (firstHalf == secondHalf) {
+            if (str.length % 2 == 0 && checkRepeats(str, str.length / 2)) {
                 total += id
             }
         }
