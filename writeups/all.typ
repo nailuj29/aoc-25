@@ -1,4 +1,8 @@
 #set page(paper: "us-letter")
+#show raw.line: it => [
+    #it.number #it
+]
+
 = Advent of Code 2025
 #outline(title: [Jump to problem])
 
