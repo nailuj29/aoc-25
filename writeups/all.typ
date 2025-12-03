@@ -1,6 +1,8 @@
 #set page(paper: "us-letter")
 #show raw.line: it => [
-    #it.number #it
+    #if it.count > 1 {
+        it.number
+    } #it
 ]
 
 = Advent of Code 2025
@@ -13,3 +15,7 @@
 #pagebreak()
 
 #include "day02.typ"
+
+#pagebreak()
+
+#include "day03.typ"
