@@ -5,6 +5,8 @@ This one was a _doozy_. Well at least Part 2 was. Part 1 was genuinely the faste
 For Part 1, I created a simple helper function to brute-force all combinations of 2 digits. 
 Simple, and allowed some Kotlin higher-order function magic to make my primary function (the one that actually processes the inputs) incredibly concise.
 
+Total time: *00:03:34*
+
 === Part 2
 Part 2 seemed like quite a simple change, but this was one of those problems where a simple change completely eliminates the ability to brute-force (to think its only day 3...). 
 Were I to write a brute-force solution for this problem, I'd need to process roughly 1,050,420,000,000,000 possible combinations, or $mat(100; 12)$ on the "real-deal" input. 
@@ -53,3 +55,5 @@ The `dropLast` call ensures the last $n$ digits remain, where $n$ is the number 
 Other than those calls, the rest is fairly straightforward, and after the loop exits, 
 `max` contains a string representation of the biggest 12-digit number possible to make with the digits provided, solving the problem. 
 Maybe next time I'll actually ensure something is implemented correctly before giving up on it.
+
+Total time: *01:05:35*
