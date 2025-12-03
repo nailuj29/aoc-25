@@ -1,5 +1,5 @@
 fun main() {
-    fun maxJoltage2(bank: String): Int {
+    fun maxJoltage(bank: String): Int {
         var maxJoltage = 0
         for (i in 0 until bank.length) {
             for (j in i+1 until bank.length) {
@@ -14,7 +14,7 @@ fun main() {
     }
 
     fun part1(input: List<String>): Int {
-        return input.sumOf { maxJoltage2(it) }
+        return input.sumOf { maxJoltage(it) }
     }
 
     fun part2(input: List<String>): Long {
