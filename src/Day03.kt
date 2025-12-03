@@ -13,22 +13,6 @@ fun main() {
         return maxJoltage
     }
 
-    fun maxJoltageExcluding(bank: String, idxs: List<Int>): Pair<Int, Int> {
-        var maxJoltage = 0
-        var maxJoltageIdx = -1 to -1
-        for (i in 0 until bank.length) {
-            for (j in i+1 until bank.length) {
-                val joltage = (bank[i].toString() + bank[j].toString()).toInt()
-                if (joltage > maxJoltage &&  i !in idxs && j !in idxs) {
-                    maxJoltage = joltage
-                    maxJoltageIdx = i to j
-                }
-            }
-        }
-
-        return maxJoltageIdx
-    }
-
     fun part1(input: List<String>): Int {
         return input.sumOf { maxJoltage2(it) }
     }
