@@ -1,7 +1,7 @@
 #set page(paper: "us-letter")
 #show raw.line: it => [
     #if it.count > 1 {
-        it.number
+        [(#it.number)]
     } #it
 ]
 
