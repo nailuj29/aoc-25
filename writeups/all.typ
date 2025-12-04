@@ -19,3 +19,7 @@
 #pagebreak()
 
 #include "day03.typ"
+
+#pagebreak()
+
+#include "day04.typ"
