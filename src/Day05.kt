@@ -43,47 +43,6 @@ fun main() {
         }
         mergedRanges.add(current)
 
-//        val toIgnore = mutableSetOf<Pair<Long, Long>>()
-
-//        var count = 0L
-//        for (i in ranges.indices) {
-//            if (ranges[i] in toIgnore) continue
-//            var current = ranges[i]
-//            for (j in i + 1 until ranges.size) {
-//                val mergeResult = mergeRanges(current, ranges[j])
-//                if (mergeResult.first) {
-//                    current = mergeResult.second
-//                    toIgnore.add(ranges[j])
-//                }
-//            }
-//
-//            count += current.second - current.first + 1
-//        }
-//
-//        return count
-
-//
-//        var mergedRanges = ranges
-//        var prevMergedRanges: List<Pair<Long, Long>>
-//
-//        val removed = mutableSetOf<Pair<Long, Long>>()
-//        do {
-//            removed.clear()
-//            prevMergedRanges = mergedRanges
-//            mergedRanges = prevMergedRanges.windowed(2).map { l ->
-//                val r1 = l[0]
-//                val r2 = l[1]
-//                val mergeResult = mergeRanges(r1, r2)
-//                if (mergeResult.first) {
-//                    removed.add(r1)
-//                    removed.add(r2)
-//                    return@map listOf(mergeResult.second)
-//                } else {
-//                    return@map listOf(r1, r2)
-//                }
-//            }.flatten().distinct().filter { it !in removed }
-//        } while (prevMergedRanges != mergedRanges && removed.isNotEmpty())
-//
         var count = 0L
         for (entry in mergedRanges) {
             count += entry.second - entry.first + 1
