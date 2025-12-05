@@ -4,6 +4,8 @@
         [(#it.number)]
     } #it
 ]
+#show link: underline
+#show link: set text(blue)
 
 = Advent of Code 2025
 #outline(title: [Jump to problem])
@@ -23,3 +25,7 @@
 #pagebreak()
 
 #include "day04.typ"
+
+#pagebreak()
+
+#include "day05.typ"
