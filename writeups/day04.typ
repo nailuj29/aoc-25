@@ -1,4 +1,4 @@
-== Day 4
+== Day 4: Printing Department
 Today was probably the easiest day so far for me. In fact, the hardest part was problably being able to actually work on it. My apartment's power went out about 45 minutes before the problem release, so I had no Wi-Fi and a dead laptop when it came time for the problem to be released. As such, I waited until 4:30pm to solve it, and in the times I list here, will subtract accordingly. (Unfortunately, this means I was fully awake during the time I spent solving this problem, so my code makes significantly more sense and is less interesting as a result).
 
 === Part 1

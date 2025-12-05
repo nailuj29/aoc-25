@@ -1,4 +1,4 @@
-== Day 5
+== Day 5: Cafeteria
 Another fairly difficult task today! I think with the shortened calendar this year, we're definitely getting a steeper difficulty curve (or my programming skills got rusty after nearly a year of not coding much outside of classwork).
 
 === Part 1
