@@ -2,7 +2,7 @@ import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path
 
-const val DAY = 6
+const val DAY = 7
 
 fun main() {
     var template = File("src/template.kt").readText()
