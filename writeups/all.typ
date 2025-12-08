@@ -1,9 +1,5 @@
 #set page(paper: "us-letter")
-#show raw.line: it => [
-    #if it.count > 1 {
-        [(#it.number)]
-    } #it
-]
+#show raw.line: it => [#if it.count > 1 {[(#it.number) ]}#it]
 #show link: underline
 #show link: set text(blue)
 
