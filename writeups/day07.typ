@@ -6,7 +6,7 @@ A simple simulation was enough to solve this one. By maintaining a set of all po
 
 Total time: *00:03:56*
 
-== Part 2
+=== Part 2
 This is my 5th year doing Advent of Code. Every year so far, theres been a similar problem to this one, which seems easy at first glance, but very quickly runs into massive memory issues due to the sheer size of what you're asked to simulate. For all of this style of problem, there's two main methods I've used to solve it. The first, using an alternate data structure to represent the current simulation state, takes a bit more thinking to craft a form of representing the solution. For this reason, I chose to go with a recursive solution, with a bit of memoization to save myself from evaluating what turned out to be on the order of $10^14$ realities
 
 My solution was fairly simple, and very likely would have worked first try, were it not for some (rather stupid) bugs. I created a recursive function, which took in the rows of the manifold yet to be evaluated, and the current x-position of a beam. Upon reaching a splitter, I call the function once (at the same level) for each new beam created, and sum their results. When there are no rows remaining, I return 1.

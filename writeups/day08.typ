@@ -16,7 +16,7 @@ The check to make sure the found circuits are not the same was technically not n
 
 Total time: *00:24:31*
 
-== Part 2
+=== Part 2
 My first idea for this, as it is on many problems, was to brute-force it. I threw my code from part 1 in a loop until there was one circuit remaining, and stored which pair was connected last. This worked on the test input, but not on my real input. So, I ended up debugging, and overall making my code from Part 1 significantly better hoping I'd fix the bug. I did not. When I grab my inputs, I tend not to look too deeply at them. Had I done so, I would have quickly realized that multiplying two of the x-positions in the input would very likely result in an integer overflow if I was using a 32-bit integer. Yet again, I defaulted to 32-bit integers, and spent way too much time debugging working code, that happened to be experiencing an integer overflow. I changed my template code to use `Long`s as soon as I finished today's problems.
 
 Total time: *00:47:27*
