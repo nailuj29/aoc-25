@@ -2,13 +2,6 @@ data class Node(val name: String, val children: List<String>)
 
 fun main() {
 
-    fun numPaths(node: Node, allNodes: Map<String, Node>): Long {
-        return if (node.children.first() == "out") 1
-        else {
-            node.children.sumOf { child -> numPaths(allNodes[child]!!, allNodes) }
-        }
-    }
-
     val numPathsToCache = mutableMapOf<Pair<String, String>, Long>()
     fun numPathsTo(node: Node, dest: String, allNodes: Map<String, Node>): Long {
         if (numPathsToCache.containsKey(node.name to dest)) return numPathsToCache[node.name to dest]!!
@@ -19,6 +12,10 @@ fun main() {
             numPathsToCache[node.name to dest] = result
             result
         }
+    }
+
+    fun numPaths(node: Node, allNodes: Map<String, Node>): Long {
+        return numPathsTo(node, "out", allNodes)
     }
 
     fun part1(input: List<String>): Long {
