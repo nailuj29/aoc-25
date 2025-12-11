@@ -13,6 +13,8 @@ fun numPaths(node: Node, allNodes: Map<String, Node>): Long {
 }
 ```
 
+Total time: *00:07:07*
+
 === Part 2
 At first, I thought it would be possible to actually figure out what all the paths from `svr` to `out` were, and see which ones contained both `dac` and `fft`. Considering that my final answer was over 300 trillion, and I only have 32GB of RAM, this would not have worked. The cache on the memoization alone would likely need petabytes of RAM. So I looked a little closer at the problem, and noticed the following: 
 $
@@ -25,3 +27,5 @@ Now that I figured out this representation of the solution, I could modify my so
 We now reach the part where I mention the dumb mistakes I made, solely for your entertainment. To the best of my memory, there are two:
 + When I copied and pasted the code for Part 1, I left a call to Part 1's function as my recursive call, meaning my code was functionally identical to my code for Part 1. This lead to me doubting if this was even a feasible solution, and drawing out a diagram to prove that there were not in fact 8 paths from `svr` to `fft` in the test data.
 + I made the same mistake I did Day 7 (forgetting to clear my cache before running it on the actual data). There seems to be a running theme here with me making the same mistake repeatedly.
+
+Total time: *00:53:26*
