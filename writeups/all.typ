@@ -49,3 +49,7 @@
 #pagebreak()
 
 #include "day11.typ"
+
+#pagebreak()
+
+#include "day12.typ"

@@ -1,0 +1,2 @@
+== Day 12: Christmas Tree Farm
+At first glance, this problem seems incredibly difficult. With that being said, I will be waiting until the weekend, or even this week to solve this problem. I simply have too much schoolwork, and would rather prioritize that today, so when I leave for break later today, I am not swamped with the remaining schoolwork and can enjoy my winter break. I will update this document describing my eventual solution, but I likely will inadvertently run into spoilers unfortunately.
