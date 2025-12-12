@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="io.ksmt.z3" type="repository">
+    <properties maven-id="io.ksmt:ksmt-z3:0.5.23" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3/0.5.23/ksmt-z3-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3-native-linux-x64/0.5.23/ksmt-z3-native-linux-x64-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3-native-mac-arm/0.5.23/ksmt-z3-native-mac-arm-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3-native-mac-x64/0.5.23/ksmt-z3-native-mac-x64-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3-native-windows-x64/0.5.23/ksmt-z3-native-windows-x64-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-z3-core/0.5.23/ksmt-z3-core-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/it/unimi/dsi/fastutil-core/8.5.11/fastutil-core-8.5.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-collections-immutable/0.3.5/kotlinx-collections-immutable-0.3.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.0/kotlin-stdlib-common-1.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ksmt/ksmt-core/0.5.23/ksmt-core-0.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.20/kotlin-stdlib-jdk8-1.7.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.20/kotlin-stdlib-jdk7-1.7.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-collections-immutable-jvm/0.3.5/kotlinx-collections-immutable-jvm-0.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

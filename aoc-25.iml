@@ -12,5 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="ejml.all" level="project" />
+    <orderEntry type="library" name="io.ksmt.core" level="project" />
+    <orderEntry type="library" name="io.ksmt.z3" level="project" />
   </component>
 </module>
